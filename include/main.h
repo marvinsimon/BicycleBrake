@@ -7,5 +7,7 @@
 
 bool isAccelerating(float currentSpeed, float previousSpeed);
 bool isSlowingDown(float currentSpeed, float previousSpeed);
+void activateBreakLights();
+void deactivateBreakLights();
 
 #endif //MAIN_H
